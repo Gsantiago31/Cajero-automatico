@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.marco{
+    width: 500px;
+    height: 400px;
+    margin: 110px auto;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+}
+.marcoInterno {
+    background-color: aqua;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.columnaI{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 150px;
+}
+.barraI {
+    margin-top: 25px;
+    grid-column: 2/3;
+    background-color: black;
+}
+.button1 {
+    margin-top: 60px;
+}
+/* button {
+    margin: auto 5px 2px;
+    width: 20px;
+} */
+
+button {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 0.6px;
+    color: white;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: auto 5px 2px;
+    width: 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .button:hover, .button:focus {
+    color: #fff;
+    outline: 0;
+  }
+  .first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    color: black;
+    box-shadow: 0 0 40px 40px white inset;
+  }
+
+
+
+
+
+
+
+
+
+.pantalla {
+    margin-top: 25px;
+    grid-column: 3/9;
+    background-color: white;
+}
+.pantalla #dinero {
+    margin-left: 4px;
+    width: 90%;
+    border: none;
+    border-bottom: solid 1px black;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.barraD {
+    margin-top: 25px;
+    grid-column: 9/10;
+    background-color: black;
+}
+.receptor {
+    grid-column: 2/10;
+    background-color: aquamarine;
+    margin-top: 15px;
+    height: 10px;
+    border-radius: 50px;
+}
+.tablero {
+    grid-column: 4/8;
+    margin: -40px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    background-color: black;
+    padding: 4px;
+}
+.contenedor button {
+    margin: 0;
+    padding: 0;
+}
+.contenedor button:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+.contenedor #uno {
+    grid-column: 1/2;
+}
+.contenedor #btn1, #btn2, #btn3, #btn4 {
+    grid-column: 5/7;
+}
+.contenedor div input {
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    cursor: pointer;
+}
+.columnaD{
+    background-color: blueviolet;
+}
+#dinero {
+    width: 100px;
+}

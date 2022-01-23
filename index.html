@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero automático</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="marco">
+        <div class="marcoInterno">
+            <div class="columnaI">
+                <div class="barraI">
+                    <button class="button1">></button>
+                    <button>></button>
+                    <button>></button>
+                </div>
+                <div class="pantalla">
+                    <input type="number" id="dinero" placeholder="Ingrese el monto"/>
+                    <p id="resultado"></p>
+                </div>
+                <div class="barraD">
+                    <button class="button1"><</button>
+                    <button><</button>
+                    <button><</button>
+                </div>
+                <div class="receptor">
+
+                </div>
+                <div class="tablero">
+                    <div class="contenedor">
+                        <div id="uno"><button class="first">1</button></div>
+                        <div id="dos"><button class="first">2</button></div>
+                        <div id="tres"><button class="first">3</button></div>
+                        <div id="btn1"><input type="button" value="Delete" id="" /></div>
+                        <div id="cuatro"><button class="first">4</button></div>
+                        <div id="cinco"><button class="first">5</button></div>
+                        <div id="seis"><button class="first">6</button></div>
+                        <div id="btn2"><input type="button" value="Reset" id="reset"></input></div>
+                        <div id="siete"><button class="first">7</button></div>
+                        <div id="ocho"><button class="first">8</button></div>
+                        <div id="nueve"><button class="first">9</button></div>
+                        <div id="btn3"><input type="button" value="Extraer" id="extraer" /></div>
+                        <div id="asterisco"><button class="first">*-</button></div>
+                        <div id="cero"><button class="first">0</button></div>
+                        <div id="suma"><button class="first">+</button></div>
+                        <div id="btn4"><input type="button" value="Continue" id="" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="columnaD">
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/cajero.js"></script>
+    <script src="js/pantalla.js"></script>
+</body>
+</html>
